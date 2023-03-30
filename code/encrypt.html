@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Encryption Website</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .container{
+            width: 600px;
+            height: 600px;
+            margin: auto;
+            background-color: rgb(135, 105, 201);
+            box-sizing: border-box;
+            border-radius: 30px;
+            border-color: black;
+            padding: 150px 5px;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <center>
+	<h1>Encryption Website</h1>
+    <br>
+	<label for="input">Enter a message to encrypt :</label>
+	<input type="text" id="input">
+    <br><br>
+	<button onclick="encrypt()">Encrypt</button>
+	<p id="output"></p>
+
+	<script src="encryption.js"></script>
+    </center>
+    </div>
+</body>
+</html>
